@@ -37,7 +37,7 @@ const UserControler = {
     },
 }
 
-
+// teste 
 
 module.exports = UserControler;
 // module.exports.login = login
