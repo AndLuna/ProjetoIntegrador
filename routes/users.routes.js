@@ -6,7 +6,7 @@ const userController = require('../controllers/userController')
 router.get('/', function(req, res, next) {
   res.send('respond with a resource');
 });
-
+router.get('/', )
 router.get("/cadastro", userController.cadastro)
 
 module.exports = router;

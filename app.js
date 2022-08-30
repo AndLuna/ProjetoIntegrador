@@ -7,7 +7,7 @@ var logger = require('morgan');
 const methodOverride = require('method-override');
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var usersRouter = require('./routes/users.routes');
 
 //importando as rotas de edição de produtos
 const produtoRoutes =  require('./routes/produtos')
