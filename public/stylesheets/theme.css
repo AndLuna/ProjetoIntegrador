@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,100;1,500&display=swap');
+
+html {
+    font-family: 'Roboto', sans-serif;
+    background: #fff;
+}
+
+header a {
+    text-decoration: none;
+    color: #000;
+}
+
+header a:hover{
+    color: #000;
+}
+
+@keyframes pulsando {
+    0%{
+
+    }
+
+    100%{
+        width: 60px;
+    }
+    
+}
+
+.whatsapp_logo{
+    width: 55px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 20px;
+    animation-name: pulsando;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.texto_garamond{
+    font-family: 'EB Garamond', serif;
+}
+
+.texto_roboto{
+    font-family: 'Roboto', sans-serif;
+}
+
+.cor_laranja_texto{
+    color: #ffa67d;
+}
+
+.cor_laranja{
+    background-color: #ffa67d;
+}
+
+.cor_cinza{
+    background-color: #F2F2F2;
+}
+
+.texto_cinza{
+    color: #737373;
+}
+
+.texto_branco{
+    color: #fff;
+}
+
+.tamanho_maximo_conteudo{
+    margin: 0 auto;
+    max-width: 1350px;
+}
+
+.display_flex{
+    display: flex;
+    align-items: center;
+}
+
+.display_flex_column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.display_flex_centralized{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+
+#top_header{
+    border-bottom: solid 1px rgb(190, 190, 190);
+    margin-bottom: 25px;
+}
+
+
+.menu_sanduiche{
+    display: none;
+}
+
+#minha_conta h2{
+    font-size: 14px;
+    margin-left: 5px;
+    padding-top: 2px;
+}
+
+#minha_conta img{
+    height: 30px;
+}
+
+#minha_conta{
+    align-items: center;
+}
+
+#dentro_top_header{ 
+    padding: 10px 10px;
+    justify-content: space-around;
+}
+
+#logo_vivara img{   
+    width: 190px;
+}
+
+#sacola_compras{
+    align-items: baseline;
+}
+
+#sacola_compras img{
+    height: 25px;
+}
+
+#status_sacola{
+    font-size: 13px;
+    position: relative;
+    left: 10px;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bot_header{
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+#barra_navegacao{
+    width: 70%;
+    /* background-color: bisque; */
+}
+
+
+
+.lista_navegacao{
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+}
+
+.lista_navegacao a {
+    text-decoration-style: none;
+}
+
+ul li.active a, .lista_navegacao a:hover{
+    color: #fd7e14;
+}
+
+
+#zona_busca {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+#procura{
+    width: 80%;
+    padding-left: 5px;
+    font-size: 14px;
+    height: 40px;
+    border: none; 
+}
+
+#botao_pesquisa{
+    width: 20%;
+    border: none;
+    text-align: right;
+}
+
+#botao_pesquisa img{
+    height: 20px;
+}
+
+footer{
+    background-color: #FEEDE4;
+    padding: 80px;
+}
+
+.inside_footer{
+    justify-content: space-between;
+}
+
+.left_footer{
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 35px;
+    font-size: 12px;
+}
+
+.left_footer img{
+    height: 19px;
+}
+
+.rigth_footer{
+    padding-right: 40px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.item_produto{
+    background-color: #fff;
+    width: 285px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0px 0px 30px 0px rgba(210,210,210,0.6)
+}
+
+.produto_foto img{
+    width: 220px;
+    height: 220px;
+}
+
+.titulo_produto{
+    font-size: 13px;
+    letter-spacing: 0.2em;
+    margin-bottom: 10px;
+}
+
+.item_nome{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 130%;
+    max-width: 220px;
+    height: 78px;
+    text-align: center;
+}
+
+.item_preco{
+    font-size: 16px;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+
+.item_preco h2{
+    font-size: 1.2em;
+    padding-top: 10px;
+    font-weight: 900;
+}
+
+.botao_comprar{
+    opacity: 0;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    box-sizing: border-box;
+    padding: 12px 25px;
+    border-radius: 40px;
+    font-weight: 500;
+}
+
+.botao_comprar:hover{
+    transition: 1000ms;
+    opacity: 100;
+    cursor: pointer;
+}
+
+.grade_produtos{
+    margin-top: 40px ;
+    justify-content: space-around;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    row-gap: 40px;
+}
+
+@media screen and (max-width: 510px) {
+    #minha_conta{
+        display: none;
+    }
+
+    #dentro_top_header{
+        margin-left: 0;
+        padding-left: 0;
+        justify-content: space-around;
+    }
+
+    .menu_sanduiche{
+        display: inline;
+        position: relative;
+        right: 40px;
+    }
+
+    .lista_navegacao{
+        display: none;
+    }
+
+    #bot_header{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #zona_busca{
+        width: 90%;
+    }
+
+    footer{
+        padding: 20px;
+    }
+}

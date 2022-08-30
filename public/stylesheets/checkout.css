@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+svg {
+    color: #F08769;
+}
+
+.fundo {
+    background-color: #f0f0f0;
+}
+
+.boxEntrega {
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+    align-items: center;
+}
+
+.pad-address {
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.end-principal {
+    margin-left: 5px;
+}
+
+.font-size-20 {
+    font-size: 22px;
+    padding: 5px;
+}
+
+.font-size-15 {
+    font-size: 12px;
+    margin-left: 5px;
+    font-family: Roboto;
+}
+
+.enderecoP {
+    font-size: 12px;
+    margin-left: 30px;
+    font-family: Roboto;
+    color: #d0b9c4;
+}
+
+.alterar {
+    color: #F08769;
+    font-size: 15px;
+}
+
+.boxEndereço {
+    background-color: #ffffff;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+
+.mb-10 {
+    margin-bottom: 10px;
+}
+
+.mb-20 {
+    margin-bottom: 20px;
+}
+
+.mb-200 {
+    margin-top: 20px;
+} 
+.txt-green {
+    color: #65c3a4;
+}
+
+.txt-orange1 {
+    color: #F08769;
+    font-family: Roboto;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.txt-orange2 {
+    color: #F08769;
+    font-family: Roboto;
+    font-size: 14px;
+    padding: 2px;
+}
+
+.txt-black {
+    font-size: 16px;
+    padding: 2px;
+}
+
+.bdr-loja {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 15px;
+    border-radius: 100px;
+}
+
+.bdr-padd{
+    padding: 25px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.btn-add{
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 100px;
+    padding: 15px;
+    text-align: center;
+    background: #F08769;
+    color: #ffffff;
+    font-family: Roboto;
+}
+
+#top_header2{
+    border-bottom: solid 1px rgb(190, 190, 190);
+    margin-bottom: -20px;
+}
+
+#titulo {
+    display: flex;
+    font-size: 24px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+#subtitulo {
+    display: flex;
+    font-size: 20px;
+    margin: 15px 0px 15px 30px;
+}
+
+#boxPagamento {
+
+    background-color: #ffffff;
+    margin-top: 60px;  
+}
+
+#boxCheckout {
+    background-color: #ffffff;
+    margin-top: 60px;
+}
+
+.p-10{
+    padding: 10px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mr-20{
+    margin-bottom: 20px;
+}
+.linha{
+    border-top: 1px solid #f0f0f0;
+    margin-top: 7px;
+    margin-left: 20px;
+}
+b {
+    font-weight: bold;
+}
+.produtos{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.total{
+    font-size: 19px;
+}

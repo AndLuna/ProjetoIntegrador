@@ -1,0 +1,149 @@
+{
+    "produtos": [
+        {
+            "id": "1205cc48-6d43-4bfd-a41e-fa593ee5a818",
+            "nome": " Brinco Ouro Rosé",
+            "preco": "4450",
+            "status": "LANÇAMENTO",
+            "volume": "",
+            "material": "Ouro Rosê",
+            "cor": "Rosê",
+            "largura": "3,5mm",
+            "garantia": "12",
+            "tipos": [
+                "joias"
+            ],
+            "imagem": "fe3df2b0-8436-40ec-9c2e-7b5cacdfd970-BR00049588.webp"
+        },
+        {
+            "id": "54ab165a-6c04-4953-a0d6-3608d9eaf487",
+            "nome": "Aliança de Casamento Ouro Amarelo I Do",
+            "preco": "1250",
+            "status": "VIVARA",
+            "volume": "",
+            "material": "Ouro",
+            "cor": "Amarelo",
+            "largura": "2mm",
+            "garantia": "12",
+            "tipos": [
+                "joias",
+                "casamento"
+            ],
+            "imagem": "01f460dd-83cb-423f-82f5-f33660f1d6b8-AN00048702b.webp"
+        },
+        {
+            "id": "8ac15822-00fc-4276-87d6-50f326912e32",
+            "nome": "Relógio Vivara Masculino Borracha Preta",
+            "preco": "990",
+            "status": "LANÇAMENTO",
+            "volume": "",
+            "material": "Aço Inox",
+            "cor": "Prata",
+            "largura": "",
+            "garantia": "9",
+            "tipos": [
+                "relogios",
+                "acessorios",
+                "masculino"
+            ],
+            "imagem": "eb154ed7-5d1f-49c4-88e1-0eb4ce5b1ddf-VI00000287.webp"
+        },
+        {
+            "id": "cc6fe4ea-6b3b-434f-89a0-b304210fea06",
+            "nome": "Canivete Signature Lite 7F Victorinox Swiss Army",
+            "preco": "489",
+            "status": "LANÇAMENTO",
+            "volume": "",
+            "material": "Aço Inox",
+            "cor": "Vermelho",
+            "largura": "",
+            "garantia": "12",
+            "tipos": [
+                "acessorios",
+                "masculino"
+            ],
+            "imagem": "b2c2ca1d-ba1e-4cea-bb5f-e42545d7b601-VR00000326.webp"
+        },
+        {
+            "id": "0d96799b-831c-4c60-9050-14391d2a744d",
+            "nome": "Carteira Masculina Couro",
+            "preco": "290",
+            "status": "SELEÇÃO VIVARA",
+            "volume": "",
+            "material": "Couro",
+            "cor": "Preto",
+            "largura": "",
+            "garantia": "5",
+            "tipos": [
+                "acessorios",
+                "masculino"
+            ],
+            "imagem": "195452fd-1acd-4a49-8c82-2c59844cf465-DI00004435-1.webp"
+        },
+        {
+            "id": "dbf318e0-36bd-4e38-b8d1-f11f20aea0d8",
+            "nome": "Pulseira Policroma Ouro Rosé Prasiolita Verde e Diamantes",
+            "preco": "9850",
+            "status": "COLEÇÃO POLICROMA",
+            "bestseller": "bestseller",
+            "volume": "",
+            "material": "Ouro Rosê",
+            "cor": "Rosê",
+            "largura": "",
+            "garantia": "12",
+            "tipos": [
+                "joias"
+            ],
+            "imagem": "c97de0a0-5060-41b1-a46b-924f700c1587-PU00016303-1.webp"
+        },
+        {
+            "id": "3e4792bc-b3eb-4f2f-919e-24c723f6cead",
+            "nome": "Colar Laço Prata e Topázios",
+            "preco": "632",
+            "status": "LANÇAMENTO",
+            "bestseller": "bestseller",
+            "volume": "",
+            "material": "Prata",
+            "cor": "Prata",
+            "largura": "",
+            "garantia": "10",
+            "tipos": [
+                "joias"
+            ],
+            "imagem": "b33528da-41bf-4b14-ade9-7fd731225f21-CO00021872-1.webp"
+        },
+        {
+            "id": "950d3dc6-1b93-450b-afac-122e67487adf",
+            "nome": "Anel Ouro Amarelo e Diamantes",
+            "preco": "29990",
+            "status": "PODRE DE RICO",
+            "bestseller": "bestseller",
+            "volume": "",
+            "material": "Ouro",
+            "cor": "Amarelo",
+            "largura": "4mm",
+            "garantia": "12",
+            "tipos": [
+                "joias"
+            ],
+            "imagem": "a9944f5b-010f-4696-8823-1bdce7b2f4d2-AN00052538.webp"
+        },
+        {
+            "id": "e8472ed7-c67b-4f9c-a5ae-b9c83386d60f",
+            "nome": "Anel Ouro Rosé Diamantes e Topázio London",
+            "preco": "2050",
+            "status": "VIVARA",
+            "bestseller": "bestseller",
+            "volume": "",
+            "material": "Ouro",
+            "cor": "Amarelo",
+            "largura": "",
+            "garantia": "12",
+            "tipos": [
+                "joias",
+                "casamento"
+            ],
+            "imagem": "c4a9fd14-be05-4ec0-9091-25d533333a7b-AN00049227-1.webp"
+        }
+    ]
+}

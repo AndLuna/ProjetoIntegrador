@@ -1,0 +1,34 @@
+<section class="mais_vendidos">
+    <div class="titulo_mais_vendidos texto_garamond display_flex">
+        <div class="before_best"></div>
+        <h2>Best Sellers</h2>
+        <div class="after_best"></div>
+    </div>
+    <div class="cartoes_mais_vendidos display_flex">
+
+        <% bestSellers.map( bestSellers => { %>
+
+        <div class="item_produto">
+            <div class="produto_foto">
+                <img src="produtos.images/<%=  bestSellers.imagem  %>" alt="aliança" />
+            </div>
+            <div class="produto_info display_flex_column">
+                <h2 class="titulo_produto texto_roboto texto_cinza"><%=  bestSellers.status  %></h2>
+                <div class="item_nome"><%=  bestSellers.nome  %></div>
+                <div class="item_preco display_flex_column texto_roboto">
+                    <h2 class="avista">R$<%=  bestSellers.preco  %>,00</h2>
+                    <h3 class="parcelado texto_cinza">10x de R$<%= Math.round(bestSellers.preco/10) %>,00</h3>
+                    <div class="botao_comprar texto_branco cor_laranja">
+                        COMPRAR
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <%  }) %>      
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
