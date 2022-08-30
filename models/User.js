@@ -5,4 +5,15 @@ let db = require('../database/db_user.json');
 
 const writeToDB = () => {
     const json = JSON.stringify(db);
+    fs.writeFileSync('database/db.json', json);
 }
+
+
+const User = {
+    create: (user) => {
+        db.users.push({ id: v4(), ...user });
+    writeToDB();
+    } 
+}
+
+module.exports = User;
