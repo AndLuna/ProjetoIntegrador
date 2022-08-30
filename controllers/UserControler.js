@@ -3,3 +3,5 @@ const UserControler = {
         res.render('user/index');
     }
 }
+
+module.exports = UserControler;

@@ -1,12 +1,8 @@
-var express = require('express');
-var router = express.Router();
-const userController = require('../controllers/userController')
+const express = require('express');
+const router = express.Router();
 
-/* GET users listing. */
-router.get('/', function(req, res, next) {
-  res.send('respond with a resource');
-});
-router.get('/', )
-router.get("/cadastro", userController.cadastro)
+const UserControler= require('../controllers/UserControler')
 
-module.exports = router;
+
+// rota para lista todos os usuarios
+router.get('/', UserControler.index);
