@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Roboto:wght@400;700&display=swap');
+
+
+main {}
+
+#section_login {
+    /* border: 1px solid navy; */
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    margin-left: 63px;
+
+}
+
+#painel_login {
+    /* border: 1px solid red; */
+    width: 340px;
+    height: 100%;
+ 
+}
+
+#painel_login #title {
+    /* border: 1px solid red; */
+    width: 142px;
+    height: 89px;
+    font-size: 35px;
+    margin-bottom: 40px;
+    font-family: 'garamond';
+    letter-spacing: 3px;
+}
+
+#email,
+#senha {
+    width: 320px;
+    height: 70px;
+}
+
+.login_e_senha label {
+    width: 100%;
+    color: grey;
+    display: block;
+    margin: 0px 0px 3px 6px;
+    /* O display block deixa essa parte separada */
+}
+
+.login_e_senha input {
+    border: 1px solid white;
+    border-bottom: 1px solid lightblue;
+    background-color: #b3d4fc63;
+    border-radius: 2px;
+    outline: 0ch;
+    width: 320px;
+    height: 30px;
+}
+
+.input:focus {
+    /* quando o input estiver focado */
+    background-color: #b3d4fc63;
+    /* quando for clikado o input mudará de cor */
+    border-bottom: 2px solid #ffa67d
+}
+
+#esqueci_senha {
+    font-size: 12px;
+    color: #ffa67d;
+    margin-left: 3px;
+    cursor: pointer;
+}
+
+#captcha {
+    display: relative;
+    margin-top: 30px;
+}
+
+#entrar {
+    margin-top: 35px;
+    width: 304px;
+    height: 41px;
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: #848688c4;
+    transition: 0.8s;
+}
+
+#entrar:hover {
+    color: white;
+    background-color: #ffa67d;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+.login_icons {
+    width: 230px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    margin: -10px 76px 0px 0px;
+}
+
+.login_icons_p {
+    background-color: white;
+}
+
+#entrar_por_redes img {
+    width: 26px;
+    margin-top: 4px;
+}
+#entrar_por_redes p{
+    margin-top: 11px;
+    margin-left: 8px;
+    letter-spacing: 3px;
+    font-size: 12px;
+ 
+}
+#entrar_por_redes {
+    margin-top: 35px;
+    width: 133px;
+    height: 44px;
+    border: 1px solid transparent;
+    margin-bottom: 30px;
+    background-color: transparent;
+    color: blue;
+    display: flex;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.criar_conta{
+    margin-top: -30px;
+}
+
+#create {
+    margin-top: 35px;
+    width: 304px;
+    height: 41px;
+    border: 1px solid #ffa67d;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    background-color: transparent;
+    color: #ffa67d;
+    transition: 0.8s;
+}
+
+#create:hover {
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    background-color: #c5c5c583;
+    transition: 0.8s;
+    cursor: pointer;
+}

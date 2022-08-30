@@ -1,0 +1,52 @@
+<header>
+    <section id="top_header" class="texto_roboto texto_cinza">
+        <div id="dentro_top_header" class="tamanho_maximo_conteudo display_flex">
+            <a href="/">
+                <div id="minha_conta" class="display_flex">
+                    <svg class="cor_laranja_texto" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                        fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                        <path
+                            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                    </svg>
+                    <h2><a href="/login">Minha Conta </a> </h2>
+                </div>
+            </a>
+            <svg class="menu_sanduiche" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+            <a href="/">
+                <div id="logo_vivara"><img src="/images/logo-vivara.svg" alt="logo"></div>
+            </a>
+            <div id="sacola_compras" class="display_flex">
+                <div id="status_sacola" class="cor_laranja texto_branco">0</div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                </svg>
+            </div>
+        </div>
+    </section>
+    <section id="bot_header" class="tamanho_maximo_conteudo display_flex">
+        <div id="barra_navegacao" class="texto_garamond ">
+            <ul class="lista_navegacao">
+                <li class="<% if(menu.joias){%>active<%}%>"><a href="/">JÓIAS</a></li>
+                <li class="<% if(menu.casamento){%>active<%}%>"><a href="/casamento">CASAMENTO</a></li>
+                <li class="<% if(menu.relogios){%>active<%}%>"><a href="/relogios">RELÓGIOS</a></li>
+                <li class="<% if(menu.acessorios){%>active<%}%>"><a href="/acessorios">ACESSORIOS</a></li>
+                <li class="<% if(menu.masculino){%>active<%}%>"><a href="/masculino">MASCULINO</a></li>
+            </ul>
+        </div>
+        <form id="zona_busca">
+            <input type="text" name="procura" id="procura" placeholder="Digite o que busca"
+                class="cor_cinza texto_roboto" required />
+            <button type="submit" id="botao_pesquisa"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                    <path
+                        d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                </svg></button>
+        </form>
+    </section>
+</header>

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <link rel="stylesheet" href="../styles/reset.css">
+    <link rel="stylesheet" href="../styles/theme.css">
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/login.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <title>Vivara</title>
+</head>
+
+<body>
+    <header>
+        <section id="top_header" class="texto_roboto texto_cinza">
+            <div id="dentro_top_header" class="tamanho_maximo_conteudo display_flex">
+                <a href="../pages/usuario.html">
+                    <div id="minha_conta" class="display_flex">
+                        <svg class="cor_laranja_texto" xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                            fill="currentColor" class="bi bi-person" viewBox="0 0 16 16">
+                            <path
+                                d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                        </svg>
+                        <h2>Minha Conta</h2>
+                    </div>
+                </a>
+                <svg class="menu_sanduiche" xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                    fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+                <a href="../index.html">
+                    <div id="logo_vivara"><img src="../assets/logo-vivara.svg" alt="logo"></div>
+                </a>
+                <div id="sacola_compras" class="display_flex">
+                    <div id="status_sacola" class="cor_laranja texto_branco">0</div>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag"
+                        viewBox="0 0 16 16">
+                        <path
+                            d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z" />
+                    </svg>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section id="section_login">
+            <form action="" method="post">
+                <div id="painel_login" class="display_flex_column">
+                    <div id="title" class="display_flex_centralized">
+                        <p>LOGIN</p>
+                    </div>
+                    <div class="login_e_senha">
+                        <div id="email">
+                            <label for="email">Email ou CPF*</label>
+                            <input type="email" name="email" class="input">
+                        </div>
+                        <div id="senha">
+                            <label for="password">Senha*</label>
+                            <input type="password" name="password" class="input">
+                        </div>
+                        <div id="esqueci_senha">
+                            <p>Esqueci a senha</p>
+                        </div>
+                    </div>
+                    <div id="captcha">
+                        <div class="g-recaptcha" data-sitekey="6LdrkCEhAAAAAIIrZf_3Aum4gqjPPvQlDzUrrzAr"></div>
+                        <br />
+                    </div>
+
+                    <div>
+                        <bottom id="entrar" class="bottons display_flex_centralized" type="submit">
+                            ENTRAR</bottom>
+                    </div>
+
+                    <div class="login_icons">
+                        <button id="entrar_por_redes" class="icons_buttons" type="submit">
+                            <img src="../assets/facebookiconsvg.svg" alt="facebook">
+                            <p>FACEBOOK</p>
+                        </button>
+                        <h1>ou</h1>
+                        <button id="entrar_por_redes" class="icons_buttons" type="submit">
+                            <img src="../assets/googleicon.png" alt="google">
+                            <p>GOOGLE</p>
+
+                        </button>
+                    </div>
+
+                    <div class="criar_conta">
+                        <div>
+                            <bottom id="create" class="bottons display_flex_centralized" type="submit">
+                                CRIAR MINHA CONTA</bottom>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </form>
+
+
+
+
+
+
+
+
+        </section>
+    </main>
+
+
+
+
+
+
+    <footer>
+        <div class="inside_footer display_flex tamanho_maximo_conteudo">
+            <section class="left_footer display_flex">
+                <img src="../assets/logo-vivara.svg" alt="logo-vivara">
+                <p class="texto_roboto">Copyright © 2022, todos os direitos reservados.</p>
+            </section>
+            <section class="rigth_footer">
+                <img class="site_seguro" src="../assets/new-safe-google.png" alt="site seguro" width="100px">
+            </section>
+        </div>
+    </footer>
+</body>
+
+</html>

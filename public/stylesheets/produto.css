@@ -1,0 +1,233 @@
+.container_produto{
+    justify-content: center;
+    align-items: flex-start;
+    border-top: solid 1px rgba(118, 118, 118, 0.1)
+    
+}
+
+.lado_esquedo_produto {
+    padding-left: 10px;
+    width: 65%;
+}
+
+.localizacao_produto {
+    letter-spacing: 0.2em;
+    padding-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-size: 12px;
+    color: #737373;
+}
+
+.banner_produto {
+    background-image: url(/images/produto_principal.webp);
+    height: 500px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    border: solid 1px rgba(171, 171, 171, 0.337);
+    box-shadow: inset 0px 0px 299px 200px rgba(118, 118, 118, 0.1)
+}
+
+.miniatura_produto {
+    width: 100%;
+    justify-content: center;
+}
+
+.miniaturas_principal {
+    border: solid 1px;
+}
+
+.miniaturas {
+    height: 100px;
+    margin: 10px 20px;
+}
+
+.miniaturas img {
+    height: 100%;
+}
+
+.barra_descricao {
+    border-bottom: solid 1px #b3b3b3;
+    margin-bottom: 50px;
+}
+
+.lista_descricao {
+    font-size: 14px;
+    font-weight: 400;
+    justify-content: space-around;
+    color: #212529;
+    letter-spacing: 0.2em;
+}
+
+.lista_descricao li {
+    margin-top: 40px;
+    width: 100px;
+    height: 40px;
+}
+
+.traco_baixo {
+    border-bottom: solid 2px
+}
+
+.descricao_produto h2 {
+    padding-left: 50px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    margin-bottom: 20px;
+}
+
+.especificacoes {
+    letter-spacing: 0.1em;
+    margin-bottom: 50px;
+    padding-left: 50px;
+}
+
+.especificacoes li {
+    margin: 10px;
+}
+
+.lado_direito_produto {
+    padding-left: 40px;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 45%;
+}
+
+.zona_nome_preco h1{
+    padding: 20px;
+    text-decoration: underline;
+}
+
+.zona_nome_preco h2{
+    max-width: 70%;
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+
+.zona_nome_preco h3{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.zona_nome_preco h4{
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.retangulo_arredondado{
+    padding: 2px;
+    border: solid 1px rgba(118, 118, 118, 0.214);
+    width: 150px;
+    height: 38px;
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.zona_tamanho{
+    flex-wrap: wrap;
+    gap: 30px;
+    padding-bottom: 20px;
+}
+
+.medida_dedo{
+    justify-content: space-around;
+}
+
+
+.guia_medidas{
+    text-decoration: underline;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    background: none;
+}
+
+.quantidade{
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.zona_sacola{
+    gap: 10px;
+    margin-bottom: 40px;
+}
+
+.adc_sacola{
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #000;
+    height: 40px;
+    width: 250px;
+    text-align: center;
+    justify-content: center;
+}
+
+.favoritar{
+    height: 40px;
+    width: 40px;
+    background-color: #000;
+    text-align: center;
+    justify-content: center;
+}
+
+.titulo_frete{
+    gap: 8px;
+}
+
+.digitar_frete{
+    padding-top: 20px;
+    padding-bottom: 5px;
+    width: 100%;
+    border-bottom: solid 1px rgba(118, 118, 118, 0.214);
+    font-size: 9px;
+    font-weight: 500;
+    justify-content: flex-end;
+}
+
+.beneficios_vivara h2{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: .15em;
+    color: #343434;
+}
+
+.beneficios_vivara ul{
+    list-style: disc;
+    font-size: 14px;
+    margin-left: 30px;
+}
+
+.beneficios_vivara li{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 510px){
+    .container_produto{
+        flex-wrap: wrap;
+    }
+
+    .lado_direito_produto{
+        padding-left: 0;
+        justify-content: flex-start;
+    }
+
+    .zona_sacola{
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    .miniaturas{
+        height: 50px;
+    }
+
+    .miniatura_produto{
+        width: 100%;
+        justify-content: flex-start;
+    }
+        
+}

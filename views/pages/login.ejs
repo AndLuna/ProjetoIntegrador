@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="stylesheet" href="/stylesheets/reset.css" />
+    <link rel="stylesheet" href="/stylesheets/theme.css" />
+    <link rel="stylesheet" href="/stylesheets/index.css" />
+    <link rel="stylesheet" href="/stylesheets/login.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <title>Vivara</title>
+  </head>
+
+  <body>
+
+
+
+<main>
+    <section id="section_login">
+      <form action="" method="post">
+        <div id="painel_login" class="display_flex_column">
+          <div id="title" class="display_flex_centralized">
+            <p>LOGIN</p>
+          </div>
+          <div class="login_e_senha">
+            <div id="email">
+              <label for="email">Email ou CPF*</label>
+              <input type="email" name="email" class="input" />
+            </div>
+            <div id="senha">
+              <label for="password">Senha*</label>
+              <input type="password" name="password" class="input" />
+            </div>
+            <div id="esqueci_senha">
+              <p>Esqueci a senha</p>
+            </div>
+          </div>
+          <div id="captcha">
+            <div
+              class="g-recaptcha"
+              data-sitekey="6LdrkCEhAAAAAIIrZf_3Aum4gqjPPvQlDzUrrzAr"
+            ></div>
+            <br />
+          </div>
+
+          
+          <div>
+            <bottom
+              id="entrar"
+              class="bottons display_flex_centralized"
+              type="submit">
+              <a href="/usuario">
+               ENTRAR
+              </a>
+              </bottom>
+          </div>
+
+          <div class="login_icons">
+            <button id="entrar_por_redes" class="icons_buttons" type="submit">
+              <img src="/images/facebookiconsvg.svg" alt="facebook" />
+              <p>FACEBOOK</p>
+            </button>
+            <h1>ou</h1>
+            <button id="entrar_por_redes" class="icons_buttons" type="submit">
+              <img src="/images/googleicon.png" alt="google" />
+              <p>GOOGLE</p>
+            </button>
+          </div>
+
+          <div class="criar_conta">
+            <div>
+              <bottom
+                id="create"
+                class="bottons display_flex_centralized"
+                type="submit"
+              ><a href="cadastro">
+                CRIAR MINHA CONTA
+              </a>
+                </bottom
+              >
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+  </main>
+
+<%- include('../partials/footer.ejs') %>
