@@ -6,3 +6,6 @@ const UserControler= require('../controllers/UserControler')
 
 // rota para lista todos os usuarios
 router.get('/', UserControler.index);
+
+
+module.exports = router;
