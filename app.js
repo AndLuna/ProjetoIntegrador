@@ -11,7 +11,7 @@ var indexRouter = require('./routes/index');
 
 //importando as rotas de edição de produtos e usuario
 const produtoRoutes =  require('./routes/produtos')
-const usersRouter = require('./routes/user.routes')
+const usersRouter = require('./routes/users.routes')
 
 
 const { Server } = require('http');
